@@ -1,8 +1,18 @@
+@import '../../variables';
+
 .navbar{
     display: flex;
     padding: 15px;
+    background-color: $primary-light;
 }
 .nav-img{
     height: 100px;
     width: auto;
+    margin-right: 10px;
+}
+.nav-button{
+    padding: 40px 10px 30px 10px;
+}
+.nav-title{
+    font-size: 30px;
 }
