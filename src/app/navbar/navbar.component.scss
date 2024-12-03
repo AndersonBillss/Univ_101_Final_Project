@@ -2,7 +2,9 @@
 
 .navbar{
     display: flex;
-    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
     background-color: $primary-light;
 }
 .nav-img{
@@ -15,4 +17,7 @@
 }
 .nav-title{
     font-size: 30px;
+}
+.name{
+    margin-right: 15px;
 }
